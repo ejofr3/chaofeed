@@ -1,5 +1,0 @@
-! Title: EJ Instagram cleanup
-! Description: Hide stories bar
-! Version: 1.0.0
-
-instagram.com##div.x78zum5.x1y1aw1k.xrw5ot4.xwib8y2.x7coems.xfk6m8
