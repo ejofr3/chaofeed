@@ -1,0 +1,15 @@
+! Title: block facebook distractions desktop and mobile
+! Description: merged facebook feed, reels, and gaming hides
+! Version: 2025-02-05
+!feed desktop:
+facebook.com##div.x1hc1fzr.x1unhpq9.x6o7n8i
+!feed mobile (home tab):
+m.facebook.com##body:has([role="tablist"] [role="tab"][aria-label^="feed" i][aria-selected="true"]) [role="tablist"] ~ div:not(.fixed-container):not(.above-bottom)
+m.facebook.com##body:has([role="tablist"] [role="tab"][aria-label^="feed" i][aria-selected="true"]) [aria-label^="Publica una actualización" i]
+!reels tab:
+facebook.com##[role="tab"][aria-label^="reels" i]
+facebook.com##[role="tab"][aria-label*="reels" i]
+facebook.com##[role="tab"]:has([data-hidden-ref-key="reels.jewel.hidden"])
+!video and gaming buttons:
+facebook.com##[aria-label="Video"]
+facebook.com##[aria-label="Gaming"]
