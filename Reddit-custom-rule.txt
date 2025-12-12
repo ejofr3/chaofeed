@@ -1,0 +1,5 @@
+! Title: block reddit home feed
+! Description: hide shredder home feed container
+! Version: 2025-02-05
+!home feed:
+reddit.com##shreddit-feed[reload-url*="/svc/shreddit/feeds/home-feed"]
